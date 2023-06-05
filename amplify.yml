@@ -1,12 +1,18 @@
 version: 1
 backend:
   phases:
+    prebuild:
+      commands:
+        - npm i
     build:
       commands:
         - npm run server-dev
 frontend:
   phases:
     # IMPORTANT - Please verify your build commands
+     prebuild:
+      commands:
+        - npm i
     build:
       commands: 
         - npm run client-dev
