@@ -8,6 +8,7 @@
     "react-test": "react-scripts test",
     "client-dev": "npx webpack --watch",
     "server-dev": "nodemon server/app.js",
+    "client": "npx webpack",
     "lint": "eslint",
     "lint:fix": "npm run lint -- --fix",
     "coverage": "npx open ./coverage/lcov-report/index.html"
