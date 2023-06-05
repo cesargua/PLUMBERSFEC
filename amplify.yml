@@ -1,9 +1,14 @@
 version: 1
+backend:
+  phases:
+    build:
+      - npm run server-dev
 frontend:
   phases:
     # IMPORTANT - Please verify your build commands
     build:
-      commands: []
+      commands: 
+        - npm run client-dev
   artifacts:
     # IMPORTANT - Please verify your build output directory
     baseDirectory: /
