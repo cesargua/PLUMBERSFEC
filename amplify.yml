@@ -10,7 +10,7 @@ backend:
 frontend:
   phases:
     # IMPORTANT - Please verify your build commands
-     preBuild:
+    preBuild:
       commands:
         - npm i
     build:
