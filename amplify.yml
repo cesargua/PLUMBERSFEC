@@ -1,7 +1,7 @@
 version: 1
 backend:
   phases:
-    prebuild:
+    preBuild:
       commands:
         - npm i
     build:
@@ -10,7 +10,7 @@ backend:
 frontend:
   phases:
     # IMPORTANT - Please verify your build commands
-     prebuild:
+     preBuild:
       commands:
         - npm i
     build:
