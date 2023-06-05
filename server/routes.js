@@ -1,5 +1,6 @@
 const router = require('express').Router();
 const controllers = require('./controllers');
+const awsServerlessExpress = require('aws-serverless-express');
 
 // product details
 // Retrieves the list of products
