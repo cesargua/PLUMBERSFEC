@@ -8,6 +8,7 @@
     "react-test": "react-scripts test",
     "client-dev": "npx webpack --watch",
     "server-dev": "nodemon server/app.js",
+    "run-server": "forever start server/app.js",
     "client": "npx webpack",
     "lint": "eslint",
     "lint:fix": "npm run lint -- --fix",
@@ -37,6 +38,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "forever": "^4.0.3",
     "morgan": "^1.10.0"
   },
   "devDependencies": {

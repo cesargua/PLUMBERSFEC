@@ -16,3 +16,12 @@ frontend:
   cache:
     paths:
       - node_modules/**/*
+backend:
+  phases:
+    preBuild:
+      commands:
+        - npm i
+    # IMPORTANT - Please verify your build commands
+    build:
+      commands: 
+        - npm run-server
