@@ -24,4 +24,4 @@ backend:
     # IMPORTANT - Please verify your build commands
     build:
       commands: 
-        - npm run-server
+        - npm run run-server
